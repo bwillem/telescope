@@ -30,7 +30,10 @@ function Chart({ data }: ChartProps) {
 			type='line'
 			series={series}
 			options={{
-				stroke: { curve: 'smooth' },
+				stroke: {
+					curve: 'smooth',
+					width: 2,
+				},
 				chart: {
 					toolbar: {
 						show: false,
