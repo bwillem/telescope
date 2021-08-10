@@ -10,7 +10,7 @@ you feel it is needed.
 Notes
 -----
 
-- Run `npm run start` to start a basic webserver to serve the files in `public/`
+- Run `npm run dev` to start a basic webserver to serve the files in `public/`
 - The JSON data should be available at `http://localhost:8080/data.json`
 - The data you are displaying is a simulated reaction with components `A`, `B`, `C`, `D` and `cat` (a catalyst)
 - You may ignore the `index` column, this was added during the JSON export

@@ -13,8 +13,6 @@ export interface DataTableProps {
 }
 
 function DataTable({ data }: DataTableProps) {
-	console.log('data table', data)
-
 	const columns = useMemo(() => [
 		{
 			Header: "Component",
