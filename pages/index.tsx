@@ -10,6 +10,7 @@ import { formatForDataTable } from '../util'
 const Chart = dynamic(() => import('../components/Chart'), { ssr: false })
 
 export default function Home() {
+
   const {
     data,
     isRunning,
