@@ -38,6 +38,13 @@ function Chart({ data }: ChartProps) {
 					toolbar: {
 						show: false,
 					},
+					animations: {
+						enabled: true,
+						easing: 'linear',
+						dynamicAnimation: {
+							speed: 5000
+						}
+					},
 				},
 			}}
 		/>
