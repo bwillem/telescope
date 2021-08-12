@@ -12,7 +12,10 @@ function MyApp({ Component, pageProps }: AppProps) {
      * force light mode just because
      * the graph isn't styled for darkmode
      */
-    if (colorMode === 'dark') toggleColorMode()
+    if (colorMode === 'dark') {
+      toggleColorMode()
+    }
+    localStorage.removeItem('chakra-ui-color-mode')
   }, [])
 
   return (
